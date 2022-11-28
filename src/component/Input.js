@@ -25,11 +25,11 @@ const Input = (props) => {
   // })
 
   // TERNARY OPERATOR
-  const [isGoingOut, setIsGoingOut] = React.useState(false);
+  // const [isGoingOut, setIsGoingOut] = React.useState(false);
 
-  function changeBoolean() {
-    setIsGoingOut((prevState) => !prevState);
-  }
+  // function changeBoolean() {
+  //   setIsGoingOut((prevState) => !prevState);
+  // }
   // end of ternary operator
 
   // meme code block
@@ -135,7 +135,7 @@ const Input = (props) => {
         </button>
       </div>
       <div className="image">
-        <img src={memeImage} className="finger" />
+        <img src={memeImage} className="finger" alt="" />
       </div>
 
       <div className="image">
